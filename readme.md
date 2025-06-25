@@ -33,7 +33,10 @@ This project implements an 8-bit Arithmetic Logic Unit (ALU) using Verilog HDL. 
 
 1. After saving the files, compile with:
 2. This generates the `ALU` output file.
-3. Run the simulation:
-4. Open the waveform in GTKWave:
+3. Run the simulation: use the command "iverilog -o (output file name) alu.v testbench.v
+   and "vvp (output file name) "
+5. Open the waveform in GTKWave:
+" gtkwave  alu.vcd " 
+
 
 ## Thank You

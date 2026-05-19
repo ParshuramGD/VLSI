@@ -22,6 +22,7 @@ This project implements an 8-bit Arithmetic Logic Unit (ALU) using Verilog HDL. 
 - `carry` – Carry-out (only for addition)
 - `flag` – Zero flag (1 if result is zero)
 
+(waveform.png)
 ## Tools Used
 
 - Verilog (RTL design)
